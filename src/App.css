@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url('./images/bkground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.side-bar {
+  height: 100vh;
+  width: 80px;
+  position: relative;
+  background-color: black;
+  padding-left: 10px;
+  box-shadow: 10px 0 0 rgba(41, 41, 41, 0.828);
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+
+.side-bar:hover {
+  width: 280px;
+}
+
+.side-bar ul {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.side-bar ul li {
+  list-style: none;
+  display: block;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.side-bar ul li:hover {
+  background-color: rgb(20, 19, 19);
+}
+
+.list.active {
+  background-color: rgba(41, 41, 41, 0.828);
+}
+
+.side-bar ul li a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.icon {
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  min-width: 45px;
+  text-align: center;
+}
+
+.title {
+  padding-left: 10px;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  padding-top: 25px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  width: 70px;
+}
