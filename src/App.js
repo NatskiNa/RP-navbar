@@ -44,7 +44,7 @@ function App() {
           icon={<GiWeightLiftingUp size={25} />}
         />
         <ListItem
-          title="STORE"
+          title="SHOP"
           index={3}
           activeIndex={activeIndex}
           onItemClick={handleItemClick}
